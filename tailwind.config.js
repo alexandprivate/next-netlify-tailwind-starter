@@ -1,8 +1,8 @@
 module.exports = {
-    purge: {
-        enabled: false, // change to true and build before push - manually
-        content: ["./pages/*.js", "./components/*.js"],
-    },
+    purge: [
+        "./components/**/*.{js,ts,jsx,tsx}",
+        "./pages/**/*.{js,ts,jsx,tsx}",
+    ],
     theme: {
         extend: {},
     },
