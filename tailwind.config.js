@@ -1,5 +1,6 @@
 module.exports = {
     darkMode: "class",
+    mode: "jit",
     i18n: {
         locales: ["en-US"],
         defaultLocale: "en-US",
